@@ -3,7 +3,7 @@ NAME = MadLang
 OUTPUT = $(BIN-DIR)/$(NAME)
 SRC-DIR = ./src
 BIN-DIR = ./bin
-FILES = $(SRC-DIR)/*.cpp
+FILES = $(SRC-DIR)/*.cpp $(SRC-DIR)/lexer/*.cpp
 COMPILER-FLAGS = -Wall
 #LINKER-FLAGS =
 
