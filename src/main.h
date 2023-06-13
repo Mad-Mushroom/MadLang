@@ -4,7 +4,10 @@
 #include <string>
 #include <fstream>
 
+using namespace std;
+
+#include "config.h"
 #include "lexer/lexer.h"
 #include "args.h"
 
-using namespace std;
+extern config MainConfig;
